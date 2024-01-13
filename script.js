@@ -65,6 +65,12 @@ for(let y of arr){
         ){
             document.getElementsByTagName("h2")[0].innerText = "(O) Player Win";
             document.getElementById("reset").style.display = "inline";
+        }else if(arr[0].number === 1 && arr[1].number === 1 && arr[2].number === 1 &&
+                 arr[3].number === 1 && arr[4].number === 1 && arr[5].number === 1 &&
+                 arr[6].number === 1 && arr[7].number === 1 && arr[8].number === 1 
+        ){
+            document.getElementsByTagName("h2")[0].innerText = "Drow";
+            document.getElementById("reset").style.display = "inline";
         }
     })
 }
