@@ -21,7 +21,6 @@ for(let o = 0 ; o < arr.length ; o++){
     ++l;
     arr.shift()
 }
-console.log(arr)
 
 
 for(let p of arr){
@@ -38,7 +37,7 @@ for(let p of arr){
         }           
     })
 }
-console.log(arr)
+
 
 for(let y of arr){
     y.ele.addEventListener("click" , ()=>{

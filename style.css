@@ -42,3 +42,14 @@ button:hover {
     background-color:black;
     color:whitesmoke;
 }
+
+@media screen and (max-width: 650px) {
+    div {
+      width:80vw;
+    }
+}
+@media screen and (max-width: 1100px) and (min-width: 650px)  {
+    div {
+      width: 50vw;
+    }
+  }
